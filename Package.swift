@@ -3,7 +3,7 @@
 
 import PackageDescription
 
-let version = "v10.50.1"
+let version = "v10.50.2"
 
 let package = Package(
     name: "Realm",
@@ -26,13 +26,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Realm",
-            url: "https://github.com/realm/realm-swift/releases/download/\(version)/Realm.spm.zip",
-            checksum: "942fc39917f4d572d5a2aae6a115c9f50a0954e61351aed3553c84d63ad3f2dc"
+            url: "https://github.com/yanniks/realm-swift-distribution/releases/download/\(version)/Realm.spm.zip",
+            checksum: "cbf04e54ee6f8ec52d8dd85d93773b2729e584c838df052084feccbfdf2687b4"
         ),
         .binaryTarget(
             name: "RealmSwift",
-            url: "https://github.com/realm/realm-swift/releases/download/\(version)/RealmSwift@15.4.spm.zip",
-            checksum: "208755d16d189372065e43901e5406e050197f98207142bc788487068f1a0843"
+            url: "https://github.com/yanniks/realm-swift-distribution/releases/download/\(version)/RealmSwift@15.4.spm.zip",
+            checksum: "ee7e02004d0e7ebd90966431feb72c88e1e93bd35a6a7bfeb22d80bc3e1dba13"
         ),
     ]
 )
